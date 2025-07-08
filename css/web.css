@@ -33,7 +33,7 @@
     font-weight: bold;
     padding: 18px 35px;
     background-color: #FD6E0A;
-    border-radius: 5%;
+    border-radius: 5px;
     border: none;
     margin: 0 10px;
 }
@@ -136,4 +136,40 @@ main{
 .skill{
     padding: 50px 33px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* selection resume */
+.resume-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin: 130px auto;
+}
+.resume-container{
+    display: flex;
+    gap:24px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color:  #474747;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.experience{
+    margin-top: 30px;
+}
+.experience-sub-title{
+     font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+}
+.experience-description{
+    font-size: 16px;
+    color: #757575;
+}
+.section-btn{
+    margin-top: 50px;
 }
