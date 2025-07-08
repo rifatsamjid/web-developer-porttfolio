@@ -42,6 +42,7 @@
     background-image: url('../images/developer.png') ,url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    
 }
 nav ul{
     display: flex;
@@ -172,4 +173,25 @@ main{
 }
 .section-btn{
     margin-top: 50px;
+}
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.icon-img{
+    margin-left: 24px;
+}
+.footer-description{
+    font-size: 16px;
+}
+footer input[type="text"] , input[type="Email"] , textarea {
+    height: 64px;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
 }
